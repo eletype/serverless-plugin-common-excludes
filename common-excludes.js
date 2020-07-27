@@ -104,7 +104,8 @@ module.exports = class CommonExcludes {
         'node_modules/**/aws-sdk/dist/**',
         'node_modules/**/aws-sdk/dist-tools/**',
         'node_modules/**/.vscode/**',
-        'node_modules/**/@eletype/*/src'
+        //'node_modules/**/@eletype/*/src',
+        'node_modules/**/*.log',
       ])
     ));
   }
