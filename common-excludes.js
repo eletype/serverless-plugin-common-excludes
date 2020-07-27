@@ -86,6 +86,7 @@ module.exports = class CommonExcludes {
         'node_modules/**/AUTHORS',
         'node_modules/**/CODEOWNERS',
         'node_modules/**/OWNERS',
+        'node_modules/**/LICENSE*',
         'node_modules/**/*.iml',
         'node_module/**/*.bash_completion.in',
         // yes, these are real
@@ -102,7 +103,7 @@ module.exports = class CommonExcludes {
         // AWS SDK unused dist files
         'node_modules/**/aws-sdk/dist/**',
         'node_modules/**/aws-sdk/dist-tools/**',
-        'node_modules/**/.vscode/**'
+        'node_modules/**/.vscode/**',
       ])
     ));
   }
