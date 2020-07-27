@@ -56,6 +56,7 @@ module.exports = class CommonExcludes {
         'node_modules/**/*.patch',
         'node_modules/**/*.conf',
         'node_modules/**/*.markdown',
+        'node_modules/**/README*',
         'node_modules/**/*.coffee',
         'node_modules/**/jsdoc_conf.json',
         'node_modules/**/*Makefile',
@@ -66,6 +67,7 @@ module.exports = class CommonExcludes {
         'node_modules/**/*.html',
         'node_modules/**/test/**',
         'node_modules/**/tests/**',
+        'node_modules/**/__tests__/**',
         'node_modules/**/docs/**',
         'node_modules/**/examples/**',
         'node_modules/**/coverage/**',
@@ -77,10 +79,10 @@ module.exports = class CommonExcludes {
         'node_modules/**/rollup.config.*',		
         'node_modules/**/yarn.lock',
         'node_modules/**/sonar-project.properties',	
-        'node_modules/**/package-lock.json',
+        'node_modules/**/package*.json',
         'node_modules/**/*.d.ts',
         'node_modules/**/*.map',
-        'node_modules/**/tsconfig.json',
+        'node_modules/**/tsconfig*',
         'node_modules/**/AUTHORS',
         'node_modules/**/CODEOWNERS',
         'node_modules/**/OWNERS',
@@ -100,6 +102,7 @@ module.exports = class CommonExcludes {
         // AWS SDK unused dist files
         'node_modules/**/aws-sdk/dist/**',
         'node_modules/**/aws-sdk/dist-tools/**',
+        'node_modules/**/.vscode/**'
       ])
     ));
   }
