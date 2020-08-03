@@ -1,5 +1,5 @@
 {
-  "name": "serverless-plugin-common-excludes",
+  "name": "@eletype/serverless-plugin-common-excludes",
   "version": "3.0.1",
   "description": "Adds some common exclude items to your package exclude",
   "main": "common-excludes.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dougmoscrop/serverless-plugin-common-excludes.git"
+    "url": "git+https://github.com/eletype/serverless-plugin-common-excludes.git"
   },
   "keywords": [
     "serverless",
@@ -17,9 +17,9 @@
   "author": "Doug Moscrop <doug.moscrop@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dougmoscrop/serverless-plugin-common-excludes/issues"
+    "url": "https://github.com/eletype/serverless-plugin-common-excludes/issues"
   },
-  "homepage": "https://github.com/dougmoscrop/serverless-plugin-common-excludes#readme",
+  "homepage": "https://github.com/eletype/serverless-plugin-common-excludes#readme",
   "devDependencies": {
     "eslint": "^5.14.1"
   }
